@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "点呼アプリ",
+  "name": "点呼アプリSample",
   "icons": [
     {
       "src": "favicon.ico",
