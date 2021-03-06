@@ -4,25 +4,10 @@ import './index.css';
 import App from './components/App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import purple from '@material-ui/core/colors/purple';
-
-// const theme = createMuiTheme({
-//   palette: {
-//     primary: purple,
-//   },
-//   status: {
-//     danger: 'orange',
-//   },
-// });
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider 
-    // theme={theme}
-    >
-      <App />
-    </ThemeProvider>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
