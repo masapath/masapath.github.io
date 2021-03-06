@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import CheckboxListItem from "./CheckboxListItem";
 import List from '@material-ui/core/List';
 import TextFieldListItem from "./TextFieldListItem";
+import { Button } from '@material-ui/core';
 
 class App extends Component {
   render() {
@@ -18,6 +19,8 @@ class App extends Component {
             <CheckboxListItem title="点呼項目５" description="日常点検を実施しました。"/>
             <CheckboxListItem title="点呼項目６" description="前日の運行距離規定内であることを確認しました。"/>
             <TextFieldListItem title="点呼項目７" description="そのほか特記事項があれば入力してください。"/>
+            <Button variant="contained" color="primary">カメラ起動</Button>
+            ※まだ起動しない
           </List>
         {/* </Router> */}
       </div>
