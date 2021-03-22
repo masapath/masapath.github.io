@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-masapathgithubio-dev-170211-authRole",
+            "UnauthRoleArn": "arn:aws:iam::987899072779:role/amplify-masapathgithubio-dev-170211-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::987899072779:role/amplify-masapathgithubio-dev-170211-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-masapathgithubio-dev-170211-deployment",
+            "UnauthRoleName": "amplify-masapathgithubio-dev-170211-unauthRole",
+            "StackName": "amplify-masapathgithubio-dev-170211",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:987899072779:stack/amplify-masapathgithubio-dev-170211/ea4662b0-8ae4-11eb-9ea7-0a713f4620b5",
+            "AmplifyAppId": "d2l575ban3uki3"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2l575ban3uki3",
+                    "type": "cicd"
+                }
+            }
+        }
+    }
+}
